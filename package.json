@@ -4,7 +4,7 @@
   "description": "Practice problems from cracking the coding interview",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rektator-bot/Interview_Prompts/issues"
   },
-  "homepage": "https://github.com/rektator-bot/Interview_Prompts#readme"
+  "homepage": "https://github.com/rektator-bot/Interview_Prompts#readme",
+  "dependencies": {
+    "jest": "^22.4.3"
+  }
 }
